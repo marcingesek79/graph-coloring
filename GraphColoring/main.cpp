@@ -155,6 +155,8 @@ int main() {
 		break;
 	}
 
+	std::cout << "hehe" << std::endl;
+
 	// Output
 	std::cout << output << std::endl;
 	printColors(graph);
