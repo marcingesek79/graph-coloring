@@ -3,6 +3,7 @@
 #define NOT_COLORED -1
 #define BASIC 0
 #define LF 1
+#define SF 2
 
 // Struct, that describes single vertex
 struct Vertex {
@@ -148,6 +149,10 @@ int main() {
 		output = colorGraph(graph);
 		break;
 	case LF:
+		output = colorGraphByDegree(graph);
+		break;
+	case SF:
+		// TODO - SF Algorithm
 		output = colorGraphByDegree(graph);
 		break;
 	default:
